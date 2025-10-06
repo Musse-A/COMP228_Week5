@@ -31,7 +31,7 @@ public class BankAccount_AM {
            return;
         }
         this.balance = this.balance + depositAmount;
-//        System.out.println("You have successfully deposited:" +  depositAmount);
+
 
     }
 
@@ -45,7 +45,6 @@ public class BankAccount_AM {
         }
 
         this.balance = this.balance - withdrawAmount;
-//        System.out.println("You have successfully withdrawn:" +  withdrawAmount);
 
     }
 
