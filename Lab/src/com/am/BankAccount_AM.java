@@ -37,7 +37,7 @@ public class BankAccount_AM {
 
     public void withdraw(double withdrawAmount){
 
-        if (withdrawAmount <0){
+        if (withdrawAmount <= 0){
             System.out.println("Withdrawal is invalid, it can't be less than 0!");
             return;
         }else if (withdrawAmount > balance){
